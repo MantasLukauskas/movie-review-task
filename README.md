@@ -1,6 +1,6 @@
 # Movie Review Polarity task
 
-##Task
+## Task
 Classify movie reviews into positive and negative. Classification task should be done
 using two different classification methods (e.g. logistic regression and Naive Bayes)
 ##Requirements
