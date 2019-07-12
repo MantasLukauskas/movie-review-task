@@ -15,7 +15,7 @@ __1. Describe text processing pipeline you have selected.__
 - TFIDFVectorizer (same as CountVectorizer + TFIDFTransformer)
 - Review classification with RandomForestClassifier and KNeighborsClassifier
 
-If accuracy were important then additional PCA analysis could be performed, as well as more popular SVM, XGBoost or NB methods. Likewise, accurate results are obtained using hybrid models. There are also gallim and various other methods of vectorization or called noise filtering and its methods like HARF.
+If accuracy were important then additional PCA analysis could be performed, as well as more popular SVM, XGBoost or NB methods. Likewise, accurate results are obtained using hybrid models. Various other methods of vectorization or "noise filtering" and its methods like HARF are also available.
 
 __2. Why you have selected these two classification methods?__
 
