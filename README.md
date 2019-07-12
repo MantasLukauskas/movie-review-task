@@ -33,5 +33,8 @@ As we can see information in table below accuracy of both models pretty similar 
 __4. How would you compare selected classification methods if the dataset was imbalanced?__
 
 
+## Python code usage
+'--train''
+
 ## References / Further readings
 1. Kumar, A., & Jaiswal, A. (2019). Systematic literature review of sentiment analysis on Twitter using soft computing techniques. Concurrency and Computation: Practice and Experience, e5107.
