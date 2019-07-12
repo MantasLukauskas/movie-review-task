@@ -34,6 +34,10 @@ __4. How would you compare selected classification methods if the dataset was im
 
 
 ## Python code usage
+If you are running `classification.py` using command promt (terminal) there are 2 options: 
+- `--train` with 2 arguments: 1) positive review .csv file 2) negative review .csv file. This option will processes data and do 3-fold CV on preprocessed data, find best model, create model with best parameters and save model in same directory as `classification.py`
+- `--text` with your text will use saved model and test it with new text and give positive, negative reviews probability.
+
 Use `git status` to list all new or modified files that haven't yet been committed.
 
 ## References / Further readings
