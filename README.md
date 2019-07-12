@@ -34,7 +34,7 @@ __4. How would you compare selected classification methods if the dataset was im
 
 
 ## Python code usage
-'--train'
+Use `git status` to list all new or modified files that haven't yet been committed.
 
 ## References / Further readings
 1. Kumar, A., & Jaiswal, A. (2019). Systematic literature review of sentiment analysis on Twitter using soft computing techniques. Concurrency and Computation: Practice and Experience, e5107.
