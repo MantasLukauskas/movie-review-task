@@ -26,6 +26,3 @@ __3. Compare selected classification methods. Which one is better? Why?__
 
 __4. How would you compare selected classification methods if the dataset was imbalanced?__
 
-## Results
-Everything (source code, answers to questions, etc.) should be packed into single github
-repository
