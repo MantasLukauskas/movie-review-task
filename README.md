@@ -19,6 +19,11 @@ __2. Why you have selected these two classification methods?__
 
 __3. Compare selected classification methods. Which one is better? Why?__
 
+| Method | Accuracy | F1 Score | Precision | Recall |
+| --- | --- | --- | --- | --- |
+| RF | 0.688701 | 0.664646 | 0.686848 | 0.643836 |
+| KNN | 0.662916 | 0.487527 | 0.897638 | 0.334638 |
+
 __4. How would you compare selected classification methods if the dataset was imbalanced?__
 
 ## Results
