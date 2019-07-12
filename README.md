@@ -19,7 +19,7 @@ If accuracy were important then additional PCA analysis could be performed, as w
 
 __2. Why you have selected these two classification methods?__
 
-In fact, these 2 methods were chosen to be said by chance. The SVM, NB methods are commonly used in Sentiment Analysis [1], so they were not used in this exercise and RB and KNN methods were tested for accuracy. talking about RB method, the ensemble segment algorithms are suitable when the available data contains noise or when the model is to be avoided learning
+In fact, these methods were chosen randomly. The SVM, NB methods are commonly used in Sentiment Analysis [1], so they were not used in this exercise and RB and KNN methods were tested for accuracy. Talking about RB method, the ensemble segment algorithms are suitable when the available data contains noise or we want to avoid overfitting.
 
 __3. Compare selected classification methods. Which one is better? Why?__
 
