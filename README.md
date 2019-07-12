@@ -1,4 +1,4 @@
-# Movie Review Polarity task
+# Movie Review task
 
 ## Task
 Classify movie reviews into positive and negative. Classification task should be done
