@@ -14,6 +14,7 @@ __1. Describe text processing pipeline you have selected.__
 - Remove noninformative (punctuation, stop words) from text
 - TFIDFVectorizer (same as CountVectorizer + TFIDFTransformer)
 - Review classification with RandomForestClassifier and KNeighborsClassifier
+
 __2. Why you have selected these two classification methods?__
 
 __3. Compare selected classification methods. Which one is better? Why?__
