@@ -23,6 +23,8 @@ In fact, these 2 methods were chosen to be said by chance. The SVM, NB methods a
 
 __3. Compare selected classification methods. Which one is better? Why?__
 
+As we can see information in table below accuracy of both models pretty similar KNN model have better precision that means that this model have high true positive over (true + false) positives but have low recall rate (a lot false negatives). If we are looking for bad reviews this model is not suitable for this task. Overall we can say that RF model is better in this example.
+
 | Method | Accuracy | F1 Score | Precision | Recall |
 | --- | --- | --- | --- | --- |
 | RF | 0.688701 | 0.664646 | 0.686848 | 0.643836 |
