@@ -38,7 +38,5 @@ If you are running `classification.py` using command promt (terminal) there are 
 - `--train` with 2 arguments: 1) positive review .csv file 2) negative review .csv file. This option will processes data and do 3-fold CV on preprocessed data, find best model, create model with best parameters and save model in same directory as `classification.py`
 - `--text` with your text will use saved model and test it with new text and give positive, negative reviews probability.
 
-Use `git status` to list all new or modified files that haven't yet been committed.
-
 ## References / Further readings
 1. Kumar, A., & Jaiswal, A. (2019). Systematic literature review of sentiment analysis on Twitter using soft computing techniques. Concurrency and Computation: Practice and Experience, e5107.
