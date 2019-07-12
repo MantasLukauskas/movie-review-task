@@ -32,10 +32,11 @@ As we can see information in table below accuracy of both models pretty similar 
 
 __4. How would you compare selected classification methods if the dataset was imbalanced?__
 
+Depending on the imbalance ratio because low disbalance can be solved with methods like RandomForest for example. Also in data processing, there are oversampling, undersampling algorithms to solve the imbalanced data problem. In ML methods possible solution for the imbalance is assigning weights to classes. If you are just comparing models that were created on imbalanced data you can use different metrics like in table above Precision, Recall because sure that if we have 10000 obs of one class and 100 obs another accuracy will be high even if the model will show that all obs is from first class.
 
 ## Python code usage
 If you are running `classification.py` using command promt (terminal) there are 2 options: 
-- `--train` with 2 arguments: 1) positive review .csv file 2) negative review .csv file. This option will processes data and do 3-fold CV on preprocessed data, find best model, create model with best parameters and save model in same directory as `classification.py`
+- `--train` with 2 arguments: 1) positive review .csv file 2) negative review .csv file. This option will prepare data and do 3-fold CV on preprocessed data, find best model, create model with best parameters and save model in same directory as `classification.py`
 - `--text` with your text will use saved model and test it with new text and give positive, negative reviews probability.
 
 ## References / Further readings
