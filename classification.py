@@ -39,19 +39,8 @@ from sklearn.ensemble import RandomForestClassifier
     default = None,
     type=click.Path(exists=False, resolve_path=True),
     help="Enter path to 1) positive and 2) to negative reviews")
-    
-@click.option(
-    "-lm", "--load_model",
-    type=click.Path(exists=False, resolve_path=True))
-    
-    
-@click.option(
-    "-lv", "--load_vect",
-    type=click.Path(exists=False, resolve_path=True))
-    
-    
  
-def main(text, train, load_model, load_vect):
+def main(text, train):
 
     click.echo("\nHello. This is movie comments sentiment analysis tool")
 
