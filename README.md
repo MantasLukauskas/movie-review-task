@@ -19,6 +19,8 @@ If accuracy were important then additional PCA analysis could be performed, as w
 
 __2. Why you have selected these two classification methods?__
 
+In fact, these 2 methods were chosen to be said by chance. The SVM, NB methods are commonly used in Sentiment Analysis [1], so they were not used in this exercise and RB and KNN methods were tested for accuracy. talking about RB method, the ensemble segment algorithms are suitable when the available data contains noise or when the model is to be avoided learning
+
 __3. Compare selected classification methods. Which one is better? Why?__
 
 | Method | Accuracy | F1 Score | Precision | Recall |
@@ -28,3 +30,6 @@ __3. Compare selected classification methods. Which one is better? Why?__
 
 __4. How would you compare selected classification methods if the dataset was imbalanced?__
 
+
+## References / Further readings
+1. Kumar, A., & Jaiswal, A. (2019). Systematic literature review of sentiment analysis on Twitter using soft computing techniques. Concurrency and Computation: Practice and Experience, e5107.
