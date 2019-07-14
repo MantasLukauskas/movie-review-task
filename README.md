@@ -10,16 +10,16 @@ High accuracy is not required for this task
 http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz
 ## Questions
 __1. Describe text processing pipeline you have selected.__
-- Import positive and negative reviews
-- Remove noninformative (punctuation, stop words) from text
-- TFIDFVectorizer (same as CountVectorizer + TFIDFTransformer)
+- Import positive and negative reviews (merge to one dataset, positive reviews predictable var (Y) value 1, negative - 0 (binary classification task) and etc.)
+- Remove punctuation, stop words and other noninformative elements from text
+- TFIDFVectorizer (work same as CountVectorizer + TFIDFTransformer in one function)
 - Review classification with RandomForestClassifier and KNeighborsClassifier
 
-If accuracy were important then additional PCA analysis could be performed, as well as more popular SVM, XGBoost or NB methods. Likewise, accurate results are obtained using hybrid models. Various other methods of vectorization or "noise filtering" and its methods like HARF are also available.
+If accuracy were important then additional PCA analysis could be performed, as well as more popular SVM, XGBoost or NB classification methods. Likewise, accurate results are obtained using hybrid models. Various other methods of vectorization or "noise filtering" and its methods like HARF are also available for better accuracy.
 
 __2. Why you have selected these two classification methods?__
 
-In fact, these methods were chosen randomly. The SVM, NB methods are commonly used in text classification [1], so they were not used in this exercise and RB and KNN methods were tested for accuracy. Talking about RB method, the ensemble segment algorithms are suitable when the available data contains noise or we want to avoid overfitting. In real world task I would prefer to test more than 2 methods (DT, DNN and etc.) to be sure that the method chosen is the most appropriate for the task.
+In fact, these methods were chosen randomly. The SVM, NB methods are commonly used in text classification [1], so they were not used in this exercise and RB and KNN methods were tested for accuracy. Talking about RB method, the ensemble segment algorithms are suitable when the available data contains noise or we want to avoid overfitting. In real world task I would prefer to test more than 2 methods (DT, DNN and etc.) to be sure that the method chosen is the most appropriate for the task but in this task in source code (Jupyter and .py) I show only 2 methods.
 
 __3. Compare selected classification methods. Which one is better? Why?__
 
